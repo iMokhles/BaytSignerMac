@@ -1,37 +1,47 @@
-## Welcome to GitHub Pages
+## Lite version of BaytApps.net
 
-You can use the [editor on GitHub](https://github.com/iMokhles/BaytSignerMac/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can get and request apps to be signed for free using your free developer account
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p align="center">
+  <img width="640" src="BaytSigner.png"/>
+</p>
 
-### Markdown
+### Instructions
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 1. Install Homebrew ( if not installed )
+### 2. Install ideviceinstaller + libimobildedevice using the following commands ( even if you have them before ) commands should be executed in order :)
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+- brew uninstall ideviceinstaller
+- brew uninstall libimobiledevice
+- brew install --HEAD libimobiledevice
+- brew link --overwrite libimobiledevice
+- brew install ideviceinstaller
+- brew link --overwrite ideviceinstaller
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 3. restart the application after installing ideviceinstaller
+### 4. will ask permission to get your twitter account ( important for Trial usage )
+### 4. connect your device 
+### 5. put your apple free developer account information
+### 6. ( the app will request from you tweet each week to continue using it ) ( click on signer then tweet to activate the trial period )
+### 7. after tweeting and puting your developer account info ( choose the app you want )
+### 8. we will resign the app requested and will download it after in your mac
+### 9. after finishing the download process click ( Extract )
+### 10. after extracting the app files ( click Install ) [ And wait ] 
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/iMokhles/BaytSignerMac/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Request app ?
 
-### Support or Contact
+send me email: mokhleshussien@aol.com
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+For more details see [iMokhles Site](http://imokhles.com/) [@iMokhles Twitter](http://twitter.com/imokhles).
+
+### Credits
+libimobiledevice creator
+
+iMokhles
+
+BaytApps.Net
